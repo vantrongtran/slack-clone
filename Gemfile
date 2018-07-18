@@ -37,6 +37,8 @@ gem 'webpacker', '~> 3.5'
 gem 'react_on_rails', '11.0.9'
 
 group :development, :test do
+  gem 'rubocop', require: false
+  gem 'rspec-rails', '~> 3.7'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Adds support for Capybara system testing and selenium driver
